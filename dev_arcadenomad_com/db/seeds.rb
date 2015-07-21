@@ -5,3 +5,11 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+State.create([
+  { :name => 'Alabama', :abbreviation => 'AL'},
+  { :name => 'Alaska', :abbreviation => 'AK'},
+  { :name => 'West Virginia', :abbreviation => 'WV'},
+  { :name => 'Wisconsin', :abbreviation => 'WI'},
+  { :name => 'Wyoming', :abbreviation => 'WY'}
+])
